@@ -13,7 +13,66 @@
   <depend>eigen3_vendor</depend>
   <depend>ceres_vendor</depend>
   <depend>opencv_vendor</depend>
-  <depend>perception</depend>
+    <!-- rcl repo -->
+  <depend>rcl_lifecycle</depend>
+
+  <!-- rclcpp repo -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>rclcpp_lifecycle</depend>
+
+  <!-- rclpy repo -->
+  <depend>rclpy</depend>
+
+  <!-- rosidl_defaults repo -->
+  <depend>rosidl_default_generators</depend>
+  <depend>rosidl_default_runtime</depend>
+
+  <!-- ros_environment repo -->
+  <depend>ros_environment</depend>
+
+  <!-- common_interfaces repo -->
+  <depend>common_interfaces</depend>
+
+  <!-- launch repo -->
+  <depend>launch</depend>
+  <depend>launch_testing</depend>
+  <depend>launch_testing_ament_cmake</depend>
+  <depend>launch_xml</depend>
+  <depend>launch_yaml</depend>
+
+  <!-- launch_ros repo -->
+  <depend>launch_ros</depend>
+  <depend>launch_testing_ros</depend>
+  <depend>ros2launch</depend>
+  
+  <!-- ros2cli_common_extensions repo -->
+  <depend>ros2cli_common_extensions</depend>
+
+  <!-- class_loader repo -->
+  <depend>class_loader</depend>
+  <!-- pluginlib repo -->
+  <depend>pluginlib</depend>
+
+   <!-- rosbag2 repo -->
+  <depend>rosbag2</depend>
+  
+  <!-- geometry2 repo -->
+  <depend>geometry2</depend>
+
+  <!-- robot_state_publisher repo -->
+  <depend>robot_state_publisher</depend>
+
+  <depend>image_common</depend>
+  <depend>image_pipeline</depend>
+  <depend>image_transport_plugins</depend>
+
+  <!-- No laser_pipeline on ROS 2 yet, break it up -->
+  <!-- <depend>laser_filters</depend>
+  <depend>laser_geometry</depend> -->
+
+  <depend>perception_pcl</depend>
+  <depend>vision_opencv</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
