@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(corex)
+project(ros_lite)
 
 find_package(ament_cmake REQUIRED)
 
