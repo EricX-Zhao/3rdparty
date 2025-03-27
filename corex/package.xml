@@ -58,10 +58,10 @@
   <depend>rosbag2</depend>
   
   <!-- geometry2 repo -->
-  <depend>geometry2</depend>
+  <depend>tf2_ros</depend>
 
   <!-- robot_state_publisher repo -->
-  <depend>robot_state_publisher</depend>
+  <!-- <depend>robot_state_publisher</depend> -->
 
   <depend>image_common</depend>
   <depend>image_pipeline</depend>

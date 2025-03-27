@@ -19,7 +19,7 @@ include(FetchContent)
 FetchContent_Declare(
   flann
   URL https://github.com/flann-lib/flann/archive/refs/tags/1.9.2.tar.gz
-  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
+  # SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
 )
 
 set(BUILD_PYTHON_BINDINGS OFF)

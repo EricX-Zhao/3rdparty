@@ -19,7 +19,7 @@ include(FetchContent)
 FetchContent_Declare(
   pcl
   URL https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.13.1.tar.gz
-  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
+  # SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
 )
 
 set(WITH_LIBUSB OFF)

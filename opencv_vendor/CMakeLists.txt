@@ -18,7 +18,7 @@ include(FetchContent)
 FetchContent_Declare(
   opencv
   URL https://github.com/opencv/opencv/archive/refs/tags/4.6.0.tar.gz
-  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
+  # SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
 )
 
 set(WITH_ADE OFF)

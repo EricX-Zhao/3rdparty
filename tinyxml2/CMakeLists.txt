@@ -19,7 +19,7 @@ include(FetchContent)
 FetchContent_Declare(
   tinyxml2
   URL https://github.com/leethomason/tinyxml2/archive/refs/tags/10.0.0.tar.gz
-  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
+  # SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
 )
 
 set(tinyxml2_SHARED_LIBS ON)

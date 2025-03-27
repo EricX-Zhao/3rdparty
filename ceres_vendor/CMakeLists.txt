@@ -20,7 +20,7 @@ include(FetchContent)
 FetchContent_Declare(
   ceres
   URL https://github.com/ceres-solver/ceres-solver/archive/refs/tags/2.1.0.tar.gz
-  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
+  # SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
 )
 
 set(MINIGLOG ON CACHE BOOL "Use a stripped down version of glog." FORCE)

@@ -19,7 +19,7 @@ include(FetchContent)
 FetchContent_Declare(
   eigen3
   URL https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz
-  SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
+  # SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/
 )
 
 set(CMAKE_BUILD_TYPE Release)
